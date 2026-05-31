@@ -153,3 +153,4 @@ docs(project): add product spec and technical design
 - Step 3：真实数据 Schema 与样例数据，已完成。
 - Step 4：AI 摘要和标签生成脚本，已完成。
 - Step 5：Android 数据层，已完成。
+- Step 6：首页信息流，已完成。
