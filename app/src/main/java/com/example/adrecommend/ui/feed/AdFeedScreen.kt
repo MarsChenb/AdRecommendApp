@@ -55,7 +55,7 @@ fun AdFeedScreen(
                     Column {
                         Text(text = "AdRecommendApp")
                         Text(
-                            text = "Step 2: project structure ready",
+                            text = "Step 5: local AI dataset · ${state.ads.size} ads",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -74,6 +74,15 @@ fun AdFeedScreen(
                 selectedChannel = state.selectedChannel,
                 onChannelSelected = onChannelSelected
             )
+
+            state.errorMessage?.let { message ->
+                Text(
+                    text = message,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.error
+                )
+            }
 
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),

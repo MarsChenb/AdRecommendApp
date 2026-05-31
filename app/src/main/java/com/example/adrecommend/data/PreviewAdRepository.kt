@@ -58,7 +58,18 @@ object PreviewAdRepository : AdRepository {
 
     override fun getChannels(): List<AdChannel> = AdChannel.entries
 
-    override fun getAds(channel: AdChannel): List<AdItem> {
-        return ads.filter { it.channel == channel }
+    override fun getAds(
+        channel: AdChannel,
+        page: Int,
+        pageSize: Int
+    ): List<AdItem> {
+        val filteredAds = ads.filter { it.channel == channel }
+        if (pageSize == Int.MAX_VALUE) {
+            return filteredAds
+        }
+        val startIndex = (page.coerceAtLeast(0) * pageSize.coerceAtLeast(1))
+            .coerceAtMost(filteredAds.size)
+        val endIndex = (startIndex + pageSize.coerceAtLeast(1)).coerceAtMost(filteredAds.size)
+        return filteredAds.subList(startIndex, endIndex)
     }
 }
