@@ -1,0 +1,1247 @@
+[
+  {
+    "id": "ad_001",
+    "sourceProductId": "1208224953",
+    "title": "Apple Fitness",
+    "brand": "Apple Inc.",
+    "description": "Apple Fitness and Apple Fitness+ Get a comprehensive view of your fitness including Activity details, training load, Trends, and Awards. Track workouts and share with friends. Subscribe to Apple Fitness+ for workouts and meditations that help you stay active and mindful. APPLE FITNESS SUMMARY TAB • Personalize the Summary tab in the Fitness app to see what matters to you including your Activity and workout details, A...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/61/a0/9361a04d-3951-ec4b-4566-65ba69afc4fc/fitness-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/apple-fitness/id1208224953?uo=4",
+    "channel": "featured",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Rating 2.9",
+      "Free"
+    ],
+    "rating": "2.9",
+    "ratingCount": 10990,
+    "releaseDate": "2017-04-10T23:30:13Z",
+    "currentVersionReleaseDate": "2026-03-17T21:41:25Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/apple-fitness/id1208224953?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Apple Fitness 提供全面的健身追踪，包括活动详情、训练负荷、趋势和奖项。订阅 Apple Fitness+ 可获取锻炼和冥想内容，帮助保持活跃和正念。",
+    "aiTags": [
+      "健身追踪",
+      "Apple Fitness+",
+      "活动详情",
+      "训练负荷",
+      "冥想"
+    ],
+    "audience": [
+      "健身爱好者",
+      "Apple用户",
+      "注重健康人群"
+    ],
+    "sellingPoints": [
+      "个性化摘要标签",
+      "与朋友分享锻炼",
+      "Apple Fitness+订阅服务"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_002",
+    "sourceProductId": "341232718",
+    "title": "MyFitnessPal: Calorie Counter",
+    "brand": "MyFitnessPal, Inc.",
+    "description": "Achieve your nutrition, calorie, macro & fitness goals with MyFitnessPal – the AI-powered food & fitness tracker with everything you need. Calories, macros, food, workouts – track it all in one place with one of the most comprehensive health, nutrition & fitness tracking apps available. Now with a built-in AI nutrition Coach for personalized guidance based on your goals and history. Plus GLP-1 journey support - log d...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/32/c4/be32c467-6794-cd80-0446-539c429dce5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718?uo=4",
+    "channel": "ecommerce",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Food & Drink",
+      "Rating 4.7",
+      "Free"
+    ],
+    "rating": "4.7",
+    "ratingCount": 2332624,
+    "releaseDate": "2009-12-08T02:04:45Z",
+    "currentVersionReleaseDate": "2026-05-28T14:46:22Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "MyFitnessPal是一款AI驱动的食物与健身追踪器，帮助您实现营养、卡路里、宏量和健身目标。内置AI营养教练，支持GLP-1旅程记录。",
+    "aiTags": [
+      "卡路里追踪",
+      "营养管理",
+      "健身追踪",
+      "AI教练",
+      "免费应用"
+    ],
+    "audience": [
+      "健身爱好者",
+      "减肥人群",
+      "健康饮食者",
+      "糖尿病患者"
+    ],
+    "sellingPoints": [
+      "AI营养教练个性化指导",
+      "全面追踪卡路里、宏量和运动",
+      "支持GLP-1旅程记录",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_003",
+    "sourceProductId": "1313192037",
+    "title": "Home Workout - No Equipments",
+    "brand": "Leap Health Fitness Limited",
+    "description": "Want to build muscle and lose weight? Home Workout is your ultimate fitness solution! No equipment needed. You can work out at home, in the gym, or outdoors anytime, anywhere. Join Home Workout now for tailored workout plans and expert guidance, and get fitter and stronger more easily! Home Workout app is your personal home fitness coach, gym master, weight loss guide, and muscle booster. It offers a variety of worko...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/f3/74/82f37424-0f3e-b1f4-c42c-daf956d5c74f/AppIcon-0-0-1x_U007epad-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/home-workout-no-equipments/id1313192037?uo=4",
+    "channel": "local",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Health & Fitness",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 112073,
+    "releaseDate": "2017-11-18T00:52:27Z",
+    "currentVersionReleaseDate": "2026-05-30T03:11:45Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/home-workout-no-equipments/id1313192037?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "无需器械，随时随地健身！家庭健身应用提供个性化训练计划，助你增肌减脂，轻松变强。",
+    "aiTags": [
+      "家庭健身",
+      "无器械",
+      "增肌减脂",
+      "免费",
+      "高评分"
+    ],
+    "audience": [
+      "健身爱好者",
+      "居家锻炼者",
+      "减肥人群",
+      "初学者"
+    ],
+    "sellingPoints": [
+      "无需任何器械",
+      "个性化训练计划",
+      "随时随地锻炼",
+      "专业指导"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_004",
+    "sourceProductId": "1357527742",
+    "title": "Workout for Women: Fit at Home",
+    "brand": "Leap Health Fitness Limited",
+    "description": "Tone your body and lose weight with the #1 home workout for women! Get fit with the BEST women workout - female fitness app! Sweat 7 mins a day to get your dream body shape! Women Workout - Female Fitness helps you burn belly fat, tone glutes, slim legs, trim waistline and get in shape. Follow the home workout to feel the burn. Keep fit and be a better me! Train your body, burn calories, lose weight, you will get a t...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/8b/34/d78b3488-36cc-297b-7cf4-b33ec16d948c/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.jpeg/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/workout-for-women-fit-at-home/id1357527742?uo=4",
+    "channel": "featured",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Sports",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 27430,
+    "releaseDate": "2018-03-30T20:21:03Z",
+    "currentVersionReleaseDate": "2026-05-29T02:48:25Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/workout-for-women-fit-at-home/id1357527742?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "专为女性设计的居家健身应用，每天7分钟，燃烧脂肪、塑造身形。免费使用，评分4.8。",
+    "aiTags": [
+      "女性健身",
+      "居家锻炼",
+      "减脂塑形",
+      "免费",
+      "高评分"
+    ],
+    "audience": [
+      "女性",
+      "健身初学者",
+      "居家健身爱好者",
+      "减脂人群"
+    ],
+    "sellingPoints": [
+      "每天7分钟高效锻炼",
+      "针对女性塑形需求",
+      "免费使用",
+      "评分4.8，超2.7万评价"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_005",
+    "sourceProductId": "1041517543",
+    "title": "Fitbod: Gym & Fitness Planner",
+    "brand": "Fitbod Inc.",
+    "description": "*Apple Editor’s Choice Award Winner* Build muscle, gain strength and lose weight with a customized workout plan just for you. Fitbod is the ultimate fitness platform made to help enhance your strength training and endurance through personalized AI workouts. You won’t just get stronger—you’ll do it on your terms. Get optimized weight lifting routines with a workout planner made to help you reach your fitness goals. No...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/6f/7d/746f7dca-1bab-c9f6-275a-743ed122db6a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543?uo=4",
+    "channel": "ecommerce",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Sports",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 271692,
+    "releaseDate": "2015-09-26T20:05:57Z",
+    "currentVersionReleaseDate": "2026-05-28T01:41:40Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Fitbod是一款AI个性化健身计划应用，荣获Apple编辑推荐。根据你的目标定制力量训练，增肌减脂，高效达成健身目标。",
+    "aiTags": [
+      "健身计划",
+      "AI训练",
+      "力量训练",
+      "增肌减脂",
+      "个性化"
+    ],
+    "audience": [
+      "健身爱好者",
+      "力量训练者",
+      "减脂人群",
+      "增肌人群"
+    ],
+    "sellingPoints": [
+      "AI定制训练计划",
+      "Apple编辑推荐",
+      "4.8星高分",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_006",
+    "sourceProductId": "1114387800",
+    "title": "Fitness App: Gym Workout Plan",
+    "brand": "FITNESS ONLINE MChJ",
+    "description": "Whether you are trying to lose weight, gain muscle mass, rounder buttocks or want to get 6-pack abs – our fitness app offers full body workout plans with many 3D workout exercises for free. Here you will find ready workouts with champions’ diets. You can choose from a variety of exercise plans for muscle groups, such as chest workout or arm workout, or for a certain goal, such as fat burning workout. You can also cho...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/43/f3/1343f3fe-10b4-882b-7a92-02a7b868c968/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/fitness-app-gym-workout-plan/id1114387800?uo=4",
+    "channel": "local",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Health & Fitness",
+      "Sports",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 33178,
+    "releaseDate": "2016-09-15T07:04:03Z",
+    "currentVersionReleaseDate": "2026-04-25T02:33:39Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/fitness-app-gym-workout-plan/id1114387800?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "免费健身应用，提供全身锻炼计划、3D动作演示和冠军饮食方案，助你减脂增肌、塑造腹肌。",
+    "aiTags": [
+      "健身",
+      "锻炼计划",
+      "3D动作",
+      "减脂",
+      "增肌",
+      "免费"
+    ],
+    "audience": [
+      "健身爱好者",
+      "减肥人群",
+      "增肌用户",
+      "家庭健身者"
+    ],
+    "sellingPoints": [
+      "免费全身锻炼计划",
+      "3D动作演示",
+      "冠军饮食方案",
+      "针对不同肌肉群",
+      "高评分4.8"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_007",
+    "sourceProductId": "399857015",
+    "title": "Planet Fitness",
+    "brand": "Planet Fitness Holdings, LLC",
+    "description": "Welcome to the Planet Fitness App: The Gym in Your Pocket! Did you know the PF App has tons of free features everyone? It’s not just Planet Fitness members that can enjoy what the PF App has to offer! We believe fitness should be accessible for all, which is why non-members have access to a huge library of on-demand digital workouts, helpful exercise tutorials for extra guidance, and activity tracking to celebrate wi...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/91/5f/c3915f48-0be3-05ad-7beb-943851b5b007/appicon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/planet-fitness/id399857015?uo=4",
+    "channel": "featured",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Lifestyle",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 709929,
+    "releaseDate": "2010-11-04T01:40:59Z",
+    "currentVersionReleaseDate": "2026-05-28T14:07:08Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/planet-fitness/id399857015?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Planet Fitness官方应用，提供免费按需锻炼、教程和活动追踪，非会员也可使用，让健身人人可及。",
+    "aiTags": [
+      "健身",
+      "免费",
+      "锻炼教程",
+      "活动追踪",
+      "健康生活"
+    ],
+    "audience": [
+      "健身爱好者",
+      "初学者",
+      "非会员用户",
+      "健康生活追求者"
+    ],
+    "sellingPoints": [
+      "免费使用",
+      "海量按需锻炼",
+      "专业教程指导",
+      "活动追踪功能",
+      "非会员也可用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_008",
+    "sourceProductId": "516851502",
+    "title": "Fitness App (ABC Trainerize)",
+    "brand": "TSR Gym Technik Ltd.",
+    "description": "The #1 coaching app to better engage your clients. Take your coaching online and deliver an experience like nothing your clients have ever seen before. With fitness, nutrition, and habit-coaching features, plus in-app messaging, groups, progress tracking, and more — it's everything you need to motivate and inspire. By combining both a trainer and a client-side experience, ABC Trainerize allows fitness professionals t...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/d1/bc/2ed1bc00-a40f-78e5-f5ec-078c13d979d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/fitness-app-abc-trainerize/id516851502?uo=4",
+    "channel": "ecommerce",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 64181,
+    "releaseDate": "2012-04-12T21:48:53Z",
+    "currentVersionReleaseDate": "2026-04-30T18:56:00Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/fitness-app-abc-trainerize/id516851502?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "ABC Trainerize是专为健身教练打造的一站式管理应用，支持在线指导、营养计划、习惯追踪、群组沟通和进度监控，帮助教练更好地激励客户，提升训练效果。",
+    "aiTags": [
+      "健身教练",
+      "在线指导",
+      "客户管理",
+      "营养计划",
+      "进度追踪"
+    ],
+    "audience": [
+      "健身教练",
+      "私人教练",
+      "健身工作室",
+      "健康管理师"
+    ],
+    "sellingPoints": [
+      "教练端与客户端双体验",
+      "整合健身、营养与习惯养成",
+      "内置消息与群组功能",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_009",
+    "sourceProductId": "337472899",
+    "title": "Insight Timer: Meditate, Sleep",
+    "brand": "Insight Network Inc",
+    "description": "* Apps of the Year Winner - TIME magazine and Womens Health * * More time is spent meditating on Insight Timer than all other meditation apps * * Happiest App in the World - Tristan Harris * The number 1 free meditation app. Guided meditations and talks led by the world's top meditation and mindfulness experts, neuroscientists, psychologists and teachers from Stanford, Harvard, the University of Oxford and more. Musi...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/66/d4/7a66d4ce-1605-4858-7bca-5ccb39d15bf2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/insight-timer-meditate-sleep/id337472899?uo=4",
+    "channel": "local",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Health & Fitness",
+      "Lifestyle",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 440190,
+    "releaseDate": "2009-11-05T18:55:12Z",
+    "currentVersionReleaseDate": "2026-05-28T12:09:25Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/insight-timer-meditate-sleep/id337472899?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "全球最受欢迎的冥想应用，由斯坦福、哈佛等专家指导，助你冥想、睡眠、减压。免费使用，获时代杂志年度应用奖。",
+    "aiTags": [
+      "冥想",
+      "睡眠",
+      "减压",
+      "免费",
+      "高评分"
+    ],
+    "audience": [
+      "冥想初学者",
+      "睡眠障碍者",
+      "压力大的人群",
+      "健康生活追求者"
+    ],
+    "sellingPoints": [
+      "全球最受欢迎的冥想应用",
+      "顶级专家指导",
+      "免费使用",
+      "4.9星评分"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_010",
+    "sourceProductId": "493145008",
+    "title": "Headspace: Sleep & Meditation",
+    "brand": "Headspace Inc.",
+    "description": "Welcome to Headspace, your expert-led guide to mental health, mindfulness, and meditation. Whether you're navigating stress, anxiety, sleep trouble, or life’s ups and downs, Headspace is here to support you. Explore science-backed exercises, courses, and programs that help you build everyday skills to care for your mind. For more support, you have access to licensed therapists, mental health coaches or Ebb, your empa...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/ee/66/ceee6674-554c-1b15-3174-1659c8ffe767/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/headspace-sleep-meditation/id493145008?uo=4",
+    "channel": "featured",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Productivity",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 974030,
+    "releaseDate": "2012-02-02T18:57:49Z",
+    "currentVersionReleaseDate": "2026-05-26T18:17:16Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/headspace-sleep-meditation/id493145008?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Headspace提供专家指导的正念冥想和心理健康练习，帮助缓解压力、改善睡眠，并配有专业治疗师支持。",
+    "aiTags": [
+      "冥想",
+      "正念",
+      "减压",
+      "睡眠",
+      "心理健康",
+      "免费"
+    ],
+    "audience": [
+      "压力大的人群",
+      "睡眠不佳者",
+      "冥想初学者",
+      "关注心理健康者"
+    ],
+    "sellingPoints": [
+      "专家指导的冥想课程",
+      "科学验证的心理健康练习",
+      "改善睡眠与减压",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_011",
+    "sourceProductId": "571800810",
+    "title": "Calm",
+    "brand": "Calm.com, Inc.",
+    "description": "** Best of 2018 Award Winner ** — Apple ** 2017 App of the Year ** — Apple ** Happiest App in the World ** — Center for Humane Technology Calm is the #1 app for Sleep, Meditation and Relaxation. Sleep better, relieve stress, lower anxiety and refocus your attention. Explore an extensive library of guided meditations, Sleep Stories, breathwork, exclusive music and stretching exercises. Invest in your mental health and...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/88/8c/11888cdd-0381-2cd8-0646-9a10d0d22172/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/calm/id571800810?uo=4",
+    "channel": "ecommerce",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Lifestyle",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 1956486,
+    "releaseDate": "2013-02-22T20:09:23Z",
+    "currentVersionReleaseDate": "2026-05-28T05:52:23Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/calm/id571800810?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Calm是排名第一的睡眠、冥想和放松应用，帮助您改善睡眠、缓解压力、降低焦虑并重新集中注意力。",
+    "aiTags": [
+      "冥想",
+      "睡眠",
+      "放松",
+      "减压",
+      "心理健康"
+    ],
+    "audience": [
+      "失眠人群",
+      "压力大的人",
+      "焦虑者",
+      "注重心理健康的人"
+    ],
+    "sellingPoints": [
+      "Apple 2017年度应用",
+      "最佳睡眠故事和引导冥想",
+      "缓解压力和焦虑",
+      "改善专注力"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_012",
+    "sourceProductId": "1361356590",
+    "title": "Balance: Meditation & Sleep",
+    "brand": "Elevate Labs, LLC",
+    "description": "Improve your stress, sleep, and more with Balance’s personalized guided meditation program. YOUR PERSONAL MEDITATION COACH Balance is your personal meditation coach. Each day, you’ll answer questions about your meditation experience, goals, and preferences. Using an audio library of thousands of files, Balance assembles a daily guided meditation that’s perfect for you. The more you share over time, the more personali...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/f8/b2/dff8b203-65c7-fab4-2441-d9ccc3cb93f1/AppIconUpdated-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/balance-meditation-sleep/id1361356590?uo=4",
+    "channel": "local",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Health & Fitness",
+      "Lifestyle",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 119469,
+    "releaseDate": "2019-09-03T07:00:00Z",
+    "currentVersionReleaseDate": "2026-05-18T20:40:37Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/balance-meditation-sleep/id1361356590?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Balance是您的私人冥想教练，提供个性化引导冥想，帮助改善压力、睡眠和整体健康。每日根据您的反馈定制冥想内容，让冥想更有效。",
+    "aiTags": [
+      "冥想",
+      "睡眠",
+      "减压",
+      "个性化",
+      "健康",
+      "免费"
+    ],
+    "audience": [
+      "压力大的人",
+      "睡眠不佳者",
+      "冥想初学者",
+      "健康生活追求者"
+    ],
+    "sellingPoints": [
+      "个性化每日冥想",
+      "改善睡眠与减压",
+      "数千音频库支持",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_013",
+    "sourceProductId": "1500780518",
+    "title": "Medito: Mindfulness Meditation",
+    "brand": "Medito Stichting",
+    "description": "Free Meditation & Sleep — and always free. Join 2 million+ people finding daily calm with Medito, the pocket‑size studio for guided meditation, mindfulness courses, breathing exercises and sleep stories. Why Medito • 100 % free & non‑profit — built by Medito Foundation to keep mindfulness open to everyone • Courses for every goal — daily calm, focus boosts, anxiety SOS, mindful walking, loving‑kindness • Sleep storie...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/3b/25/093b2527-a3b0-1489-d021-86c5fce7239b/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/medito-mindfulness-meditation/id1500780518?uo=4",
+    "channel": "featured",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Education",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 4034,
+    "releaseDate": "2020-04-18T07:00:00Z",
+    "currentVersionReleaseDate": "2026-05-19T06:59:22Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/medito-mindfulness-meditation/id1500780518?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Medito提供免费的正念冥想、睡眠故事和呼吸练习，非营利组织运营，已有200万+用户。",
+    "aiTags": [
+      "冥想",
+      "正念",
+      "免费",
+      "睡眠",
+      "健康",
+      "非营利"
+    ],
+    "audience": [
+      "压力大的人群",
+      "失眠者",
+      "冥想初学者",
+      "关注心理健康者"
+    ],
+    "sellingPoints": [
+      "100%免费且非营利",
+      "丰富的冥想课程",
+      "睡眠故事与呼吸练习",
+      "200万+用户信赖"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_014",
+    "sourceProductId": "1482725254",
+    "title": "Open: Breathwork + Meditation",
+    "brand": "Open Inc.",
+    "description": "“We believe that mindfulness is more than a form of stress relief — it can be a tool for personal growth, deeper understanding, vibrancy. More than a way to disconnect — it can be a way to feel a part of something bigger. More than simply silence — it can be immersive, beautiful, moving.” –Raed Khawaja, Open Co-founder & CEO Regulate your nervous system with Open. Bridge science and spirituality to cleanse your body...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/84/53/6d845365-52aa-93b0-8361-882eb049ea1b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/open-breathwork-meditation/id1482725254?uo=4",
+    "channel": "ecommerce",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Health & Fitness",
+      "Lifestyle",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 16437,
+    "releaseDate": "2021-01-29T08:00:00Z",
+    "currentVersionReleaseDate": "2026-05-28T10:37:26Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/open-breathwork-meditation/id1482725254?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Open是一款结合科学与灵性的呼吸冥想应用，帮助调节神经系统，促进个人成长与内心平静。",
+    "aiTags": [
+      "冥想",
+      "呼吸训练",
+      "心理健康",
+      "个人成长",
+      "放松",
+      "正念"
+    ],
+    "audience": [
+      "压力大的人群",
+      "冥想初学者",
+      "追求个人成长者",
+      "心理健康关注者"
+    ],
+    "sellingPoints": [
+      "科学与灵性结合",
+      "调节神经系统",
+      "沉浸式体验",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_015",
+    "sourceProductId": "1307736395",
+    "title": "Waking Up: Meditation & Wisdom",
+    "brand": "Waking Up Course, LLC",
+    "description": "Recognized as a 2025 Pick by NYT Wirecutter Featured as a 2026 pick for the App Store “App of the Day” Thousands worldwide call Waking Up life changing. Whether you want better sleep, more clarity, or deeper meditation, Waking Up is your complete guide. Testimonials “Waking Up has led to my most consistent meditation practice. Family and staff also use it because it’s such a powerful tool.” —Andrew Huberman, neurosci...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/fc/60/74fc6091-7fe9-88c6-9bf3-e9731d09984b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/waking-up-meditation-wisdom/id1307736395?uo=4",
+    "channel": "local",
+    "category": "Health & Fitness",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Health & Fitness",
+      "Education",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 42379,
+    "releaseDate": "2018-09-21T15:46:51Z",
+    "currentVersionReleaseDate": "2026-05-12T13:09:07Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/waking-up-meditation-wisdom/id1307736395?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Waking Up冥想应用，2025年NYT Wirecutter推荐，2026年App Store今日应用。改善睡眠、提升清晰度，全球用户称其改变生活。",
+    "aiTags": [
+      "冥想",
+      "正念",
+      "睡眠",
+      "健康",
+      "免费",
+      "高评分"
+    ],
+    "audience": [
+      "冥想初学者",
+      "压力大者",
+      "睡眠不佳者",
+      "追求自我提升者"
+    ],
+    "sellingPoints": [
+      "NYT Wirecutter推荐",
+      "App Store今日应用",
+      "改善睡眠与清晰度",
+      "全球用户好评",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_016",
+    "sourceProductId": "545599256",
+    "title": "Instacart: Groceries & Food",
+    "brand": "Maplebear Inc",
+    "description": "Shop online & get your groceries delivered directly to your door in as fast as 30 minutes. And it's safe—contactless delivery is available. Instacart delivers fresh food, drinks, and household items the same day all across the US. Download the app to see what stores are available in your zip code. Prefer to pickup? Order online and pickup at your local store, where it will be waiting for you when you arrive. Ordering...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/00/54/c80054b9-007b-ba77-f1df-6d8c23c2af1f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-P3-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/instacart-groceries-food/id545599256?uo=4",
+    "channel": "local",
+    "category": "Food & Drink",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Food & Drink",
+      "Shopping",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 4596957,
+    "releaseDate": "2012-08-17T07:00:00Z",
+    "currentVersionReleaseDate": "2026-05-30T16:33:11Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/instacart-groceries-food/id545599256?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "在线订购生鲜杂货，最快30分钟送达。支持无接触配送和到店自取，覆盖全美。",
+    "aiTags": [
+      "生鲜配送",
+      "杂货购物",
+      "当日达",
+      "无接触配送",
+      "美国"
+    ],
+    "audience": [
+      "家庭用户",
+      "忙碌上班族",
+      "不方便出门的消费者"
+    ],
+    "sellingPoints": [
+      "最快30分钟送达",
+      "无接触配送",
+      "支持到店自取",
+      "覆盖全美"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_017",
+    "sourceProductId": "971888874",
+    "title": "Shipt: Order Grocery Delivery",
+    "brand": "Shipt LLC",
+    "description": "Get same-day delivery with Shipt – the fast, easy, all-in-one delivery app. Order groceries, alcohol (21+, terms apply)**, home essentials, and more from your favorite nearby stores and get everything delivered straight to your door. Plus, members get exclusive offers and deals on their favorite products. ORDER GROCERIES & ESSENTIALS WITH EASE - Communicate directly with your personal shopper for substitutions, prefe...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/e5/e2/fee5e262-a4b3-3d27-348e-f52ea5c7c32c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/shipt-order-grocery-delivery/id971888874?uo=4",
+    "channel": "local",
+    "category": "Food & Drink",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Food & Drink",
+      "Shopping",
+      "Rating 4.9",
+      "Free"
+    ],
+    "rating": "4.9",
+    "ratingCount": 133248,
+    "releaseDate": "2015-05-07T02:52:25Z",
+    "currentVersionReleaseDate": "2026-05-11T16:27:09Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/shipt-order-grocery-delivery/id971888874?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Shipt提供当日达配送服务，从附近商店订购食品杂货、酒类等，直接送到家门口。会员享受独家优惠。",
+    "aiTags": [
+      "食品配送",
+      "当日达",
+      "杂货",
+      "购物",
+      "免费"
+    ],
+    "audience": [
+      "家庭用户",
+      "忙碌上班族",
+      "老年人",
+      "不便出门者"
+    ],
+    "sellingPoints": [
+      "当日送达",
+      "从附近商店配送",
+      "会员专属优惠",
+      "直接与购物者沟通"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_018",
+    "sourceProductId": "722804810",
+    "title": "Gopuff - Grocery Delivery",
+    "brand": "GoPuff LLC",
+    "description": "Thousands of items – delivered faster than you’d ever expect. Gopuff is your personal teleportation device, bringing you everything you need in as fast as 15 minutes. From groceries and alcohol to home care products and more, Gopuff has you covered. We cut out the middleman, so what you see on Gopuff is what you get. That means no substitutions, no markups, and no service fees. From early ‘til late, we’ll take care o...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/72/6e/7d726e89-83db-c6b9-1479-9d82051a927d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/gopuff-grocery-delivery/id722804810?uo=4",
+    "channel": "local",
+    "category": "Food & Drink",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Food & Drink",
+      "Lifestyle",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 247823,
+    "releaseDate": "2013-10-17T08:12:48Z",
+    "currentVersionReleaseDate": "2026-05-25T14:56:53Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/gopuff-grocery-delivery/id722804810?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Gopuff提供数千种商品，最快15分钟送达，包括食品、酒类、家居用品等。无中间商，无加价，无服务费。",
+    "aiTags": [
+      "杂货配送",
+      "快速送达",
+      "食品饮料",
+      "生活服务",
+      "免费应用"
+    ],
+    "audience": [
+      "忙碌上班族",
+      "家庭用户",
+      "学生",
+      "需要快速购物的人"
+    ],
+    "sellingPoints": [
+      "最快15分钟送达",
+      "数千种商品",
+      "无加价无服务费",
+      "24小时服务"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_019",
+    "sourceProductId": "1058959277",
+    "title": "Uber Eats: Food & Groceries",
+    "brand": "Uber Technologies, Inc.",
+    "description": "Get food delivery to your doorstep from thousands of amazing local and national restaurants. Find the meal you crave and order food from restaurants easily with the Uber Eats app. Track your order in real-time. FIND YOUR FAVORITE FOOD & RESTAURANTS Order food from nearby restaurants and search by cuisine, restaurant name, dish, and meal. Food delivery options for you to order and enjoy including pizza, burritos, burg...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/6d/e7/8b6de705-f8ac-6b07-bfc7-c77b5105d408/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/uber-eats-food-groceries/id1058959277?uo=4",
+    "channel": "local",
+    "category": "Food & Drink",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Food & Drink",
+      "Lifestyle",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 10407925,
+    "releaseDate": "2016-03-01T07:53:50Z",
+    "currentVersionReleaseDate": "2026-05-26T14:24:36Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/uber-eats-food-groceries/id1058959277?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Uber Eats提供本地及全国餐厅美食和杂货配送，实时追踪订单，轻松找到您喜爱的餐食。",
+    "aiTags": [
+      "外卖",
+      "美食",
+      "杂货配送",
+      "实时追踪",
+      "免费"
+    ],
+    "audience": [
+      "美食爱好者",
+      "忙碌上班族",
+      "家庭用户",
+      "学生"
+    ],
+    "sellingPoints": [
+      "海量餐厅选择",
+      "实时订单追踪",
+      "便捷配送",
+      "免费使用"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_020",
+    "sourceProductId": "429396645",
+    "title": "ALDI Grocery Pickup & Delivery",
+    "brand": "ALDI International Services GmbH & Co. oHG",
+    "description": "Want a quick, easy, and affordable grocery shopping experience? Order ALDI from anywhere with the new and improved ALDI app. Find your local store, select pickup or delivery, fill your cart and just like that, groceries are just a click away. Download the app, sign in or create your account and get started today. Features of the ALDI App: • Order Grocery Pickup & Grocery Delivery – Choose how you shop with either cur...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/41/6c/06416c01-a021-b2f0-3e56-7f9ae7b2a529/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/aldi-grocery-pickup-delivery/id429396645?uo=4",
+    "channel": "ecommerce",
+    "category": "Shopping",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Shopping",
+      "Lifestyle",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 110829,
+    "releaseDate": "2011-07-01T07:00:00Z",
+    "currentVersionReleaseDate": "2026-05-04T21:38:20Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/aldi-grocery-pickup-delivery/id429396645?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "ALDI官方应用，提供便捷的杂货自取和送货上门服务。价格实惠，操作简单，支持在线下单，让您轻松购物。",
+    "aiTags": [
+      "杂货购物",
+      "自取",
+      "送货",
+      "免费",
+      "高评分"
+    ],
+    "audience": [
+      "家庭用户",
+      "忙碌上班族",
+      "追求性价比的消费者"
+    ],
+    "sellingPoints": [
+      "快速便捷的购物体验",
+      "支持自取和送货",
+      "价格实惠"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_021",
+    "sourceProductId": "1483998235",
+    "title": "Spark Driver",
+    "brand": "Walmart",
+    "description": "With the Spark Driver™ app, you can deliver orders, or shop and deliver orders, for Walmart and other businesses. All you need is a car, a smartphone, and insurance. After you’ve completed the enrollment process (including a background check), you will be notified when your local zone has availability. You’ll then receive details for accessing the Spark Driver app. BE YOUR OWN BOSS As an independent contractor, you’l...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c9/dc/b6c9dc9f-93ac-c731-ad69-0036005d3ed5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/spark-driver/id1483998235?uo=4",
+    "channel": "ecommerce",
+    "category": "Business",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Business",
+      "Rating 4.7",
+      "Free"
+    ],
+    "rating": "4.7",
+    "ratingCount": 261346,
+    "releaseDate": "2019-11-11T08:00:00Z",
+    "currentVersionReleaseDate": "2026-05-27T06:06:42Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/spark-driver/id1483998235?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "为沃尔玛等商家配送或代购订单，自由安排时间，成为自己的老板。需有车、智能手机和保险。",
+    "aiTags": [
+      "配送",
+      "兼职",
+      "自由职业",
+      "沃尔玛",
+      "赚钱"
+    ],
+    "audience": [
+      "有车一族",
+      "寻求兼职者",
+      "自由职业者",
+      "司机"
+    ],
+    "sellingPoints": [
+      "自由安排时间",
+      "成为自己的老板",
+      "为沃尔玛等商家服务",
+      "简单注册流程"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_022",
+    "sourceProductId": "1454056744",
+    "title": "Instacart Shopper: Earn money",
+    "brand": "Maplebear Inc",
+    "description": "What it’s like being an Instacart shopper: — Work whenever & wherever you want — With no set schedule or region, you can make extra cash when it fits your life—whether that’s close to home or miles away. — Pick the orders you want — Use the app to see nearby orders and choose the ones that work best for you. Then get paid just for grocery shopping! — Get paid fast — Keep 100% of customer tips and cash out in as littl...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/05/be/c705be78-5ee0-a42d-2208-a89f7d58ef0f/AppIcon.com.instacart.shopper-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/instacart-shopper-earn-money/id1454056744?uo=4",
+    "channel": "ecommerce",
+    "category": "Business",
+    "priceText": "Free",
+    "materialType": "large_image",
+    "rawTags": [
+      "Business",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 1570629,
+    "releaseDate": "2019-05-01T16:55:34Z",
+    "currentVersionReleaseDate": "2026-05-27T20:21:24Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/instacart-shopper-earn-money/id1454056744?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Instacart Shopper应用让你自由接单，灵活工作，赚取额外收入。无固定时间地点，选择适合的订单，快速提现，保留全部小费。",
+    "aiTags": [
+      "兼职赚钱",
+      "灵活工作",
+      "自由接单",
+      "购物配送",
+      "高评分"
+    ],
+    "audience": [
+      "兼职人员",
+      "自由职业者",
+      "学生",
+      "家庭主妇"
+    ],
+    "sellingPoints": [
+      "自由安排工作时间",
+      "选择适合自己的订单",
+      "快速提现，保留全部小费"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_023",
+    "sourceProductId": "976353472",
+    "title": "Shipt: Shopper and Driver",
+    "brand": "Shipt LLC",
+    "description": "Interested in flexible gig work? With Shipt, you can earn money as a delivery driver or personal shopper. Get paid to deliver packages or shop for groceries and household essentials from local stores. Set your own schedule, work when you want, and enjoy same-day pay opportunities. Earn money & get paid fast Personal shoppers earn base pay (offer pay) for any grocery or package delivery based on estimated time and eff...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/3a/c9/383ac9db-f53e-55d3-1298-c7bdc145c329/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/shipt-shopper-and-driver/id976353472?uo=4",
+    "channel": "ecommerce",
+    "category": "Business",
+    "priceText": "Free",
+    "materialType": "small_image",
+    "rawTags": [
+      "Business",
+      "Productivity",
+      "Rating 4.7",
+      "Free"
+    ],
+    "rating": "4.7",
+    "ratingCount": 224365,
+    "releaseDate": "2018-02-05T17:25:44Z",
+    "currentVersionReleaseDate": "2026-05-27T14:12:01Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/shipt-shopper-and-driver/id976353472?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "通过Shipt灵活接单，做配送司机或私人采购员，自主安排时间，当日结算报酬。",
+    "aiTags": [
+      "灵活工作",
+      "配送",
+      "购物",
+      "赚钱",
+      "自由职业"
+    ],
+    "audience": [
+      "兼职者",
+      "自由职业者",
+      "学生",
+      "司机"
+    ],
+    "sellingPoints": [
+      "自主安排工作时间",
+      "当日快速结算",
+      "配送与采购双选择",
+      "无需经验"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  },
+  {
+    "id": "ad_024",
+    "sourceProductId": "1576385234",
+    "title": "Haul Shopping",
+    "brand": "Haul Labs Inc.",
+    "description": "Discover the best deals, price drops, and hidden coupons from top retailers — all inside Haul, the fast, fun, and easy-to-use shop app. Haul’s AI searches the internet all day to uncover price drops, hidden coupons, and hard-to-find savings on the products you already buy. From snacks and groceries to seasonal items, gifts, home essentials, and trending finds — there’s always something fun to discover every time you...",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/25/b7/7e25b7c7-7ec6-59ea-1648-a9bd5a633742/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+    "landingUrl": "https://apps.apple.com/us/app/haul-shopping/id1576385234?uo=4",
+    "channel": "ecommerce",
+    "category": "Shopping",
+    "priceText": "Free",
+    "materialType": "video",
+    "rawTags": [
+      "Shopping",
+      "Social Networking",
+      "Rating 4.8",
+      "Free"
+    ],
+    "rating": "4.8",
+    "ratingCount": 28780,
+    "releaseDate": "2021-07-26T07:00:00Z",
+    "currentVersionReleaseDate": "2026-05-07T12:31:50Z",
+    "source": {
+      "provider": "Apple iTunes Search API",
+      "providerUrl": "https://performance-partners.apple.com/search-api",
+      "sourceUrl": "https://apps.apple.com/us/app/haul-shopping/id1576385234?uo=4",
+      "retrievedAt": "2026-05-31"
+    },
+    "aiSummary": "Haul购物应用，AI自动搜索全网降价和隐藏优惠券，发现零食、家居、礼品等超值好物，购物省钱又好玩。",
+    "aiTags": [
+      "购物省钱",
+      "优惠券",
+      "AI比价",
+      "好物发现",
+      "免费应用"
+    ],
+    "audience": [
+      "省钱购物爱好者",
+      "日常网购用户",
+      "喜欢发现新商品的人"
+    ],
+    "sellingPoints": [
+      "AI自动搜索全网降价",
+      "隐藏优惠券轻松获取",
+      "涵盖零食、家居、礼品等多品类",
+      "界面快速有趣"
+    ],
+    "aiProvider": "deepseek",
+    "aiModel": "deepseek-v4-flash",
+    "aiGeneratedAt": "2026-05-31T15:56:03+00:00"
+  }
+]

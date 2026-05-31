@@ -134,7 +134,7 @@ app/src/main/assets/ads_raw.json
 
 ## 7. 后续计划
 
-Step 4 将基于 `data/ads_raw.json` 调用真实 AI 接口，生成：
+Step 4 已基于 `data/ads_raw.json` 调用真实 AI 接口生成：
 
 - `aiSummary`
 - `aiTags`
