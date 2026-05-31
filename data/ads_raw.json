@@ -1,0 +1,693 @@
+﻿[
+    {
+        "id":  "ad_001",
+        "sourceProductId":  "1208224953",
+        "title":  "Apple Fitness",
+        "brand":  "Apple Inc.",
+        "description":  "Apple Fitness and Apple Fitness+ Get a comprehensive view of your fitness including Activity details, training load, Trends, and Awards. Track workouts and share with friends. Subscribe to Apple Fitness+ for workouts and meditations that help you stay active and mindful. APPLE FITNESS SUMMARY TAB • Personalize the Summary tab in the Fitness app to see what matters to you including your Activity and workout details, A...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/61/a0/9361a04d-3951-ec4b-4566-65ba69afc4fc/fitness-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/apple-fitness/id1208224953?uo=4",
+        "channel":  "featured",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Rating 2.9",
+                        "Free"
+                    ],
+        "rating":  "2.9",
+        "ratingCount":  10990,
+        "releaseDate":  "2017-04-10T23:30:13Z",
+        "currentVersionReleaseDate":  "2026-03-17T21:41:25Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/apple-fitness/id1208224953?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_002",
+        "sourceProductId":  "341232718",
+        "title":  "MyFitnessPal: Calorie Counter",
+        "brand":  "MyFitnessPal, Inc.",
+        "description":  "Achieve your nutrition, calorie, macro \u0026 fitness goals with MyFitnessPal – the AI-powered food \u0026 fitness tracker with everything you need. Calories, macros, food, workouts – track it all in one place with one of the most comprehensive health, nutrition \u0026 fitness tracking apps available. Now with a built-in AI nutrition Coach for personalized guidance based on your goals and history. Plus GLP-1 journey support - log d...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/32/c4/be32c467-6794-cd80-0446-539c429dce5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Food \u0026 Drink",
+                        "Rating 4.7",
+                        "Free"
+                    ],
+        "rating":  "4.7",
+        "ratingCount":  2332624,
+        "releaseDate":  "2009-12-08T02:04:45Z",
+        "currentVersionReleaseDate":  "2026-05-28T14:46:22Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_003",
+        "sourceProductId":  "1313192037",
+        "title":  "Home Workout - No Equipments",
+        "brand":  "Leap Health Fitness Limited",
+        "description":  "Want to build muscle and lose weight? Home Workout is your ultimate fitness solution! No equipment needed. You can work out at home, in the gym, or outdoors anytime, anywhere. Join Home Workout now for tailored workout plans and expert guidance, and get fitter and stronger more easily! Home Workout app is your personal home fitness coach, gym master, weight loss guide, and muscle booster. It offers a variety of worko...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/f3/74/82f37424-0f3e-b1f4-c42c-daf956d5c74f/AppIcon-0-0-1x_U007epad-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/home-workout-no-equipments/id1313192037?uo=4",
+        "channel":  "local",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  112073,
+        "releaseDate":  "2017-11-18T00:52:27Z",
+        "currentVersionReleaseDate":  "2026-05-30T03:11:45Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/home-workout-no-equipments/id1313192037?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_004",
+        "sourceProductId":  "1357527742",
+        "title":  "Workout for Women: Fit at Home",
+        "brand":  "Leap Health Fitness Limited",
+        "description":  "Tone your body and lose weight with the #1 home workout for women! Get fit with the BEST women workout - female fitness app! Sweat 7 mins a day to get your dream body shape! Women Workout - Female Fitness helps you burn belly fat, tone glutes, slim legs, trim waistline and get in shape. Follow the home workout to feel the burn. Keep fit and be a better me! Train your body, burn calories, lose weight, you will get a t...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/8b/34/d78b3488-36cc-297b-7cf4-b33ec16d948c/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.jpeg/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/workout-for-women-fit-at-home/id1357527742?uo=4",
+        "channel":  "featured",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Sports",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  27430,
+        "releaseDate":  "2018-03-30T20:21:03Z",
+        "currentVersionReleaseDate":  "2026-05-29T02:48:25Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/workout-for-women-fit-at-home/id1357527742?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_005",
+        "sourceProductId":  "1041517543",
+        "title":  "Fitbod: Gym \u0026 Fitness Planner",
+        "brand":  "Fitbod Inc.",
+        "description":  "*Apple Editor’s Choice Award Winner* Build muscle, gain strength and lose weight with a customized workout plan just for you. Fitbod is the ultimate fitness platform made to help enhance your strength training and endurance through personalized AI workouts. You won’t just get stronger—you’ll do it on your terms. Get optimized weight lifting routines with a workout planner made to help you reach your fitness goals. No...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/6f/7d/746f7dca-1bab-c9f6-275a-743ed122db6a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Sports",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  271692,
+        "releaseDate":  "2015-09-26T20:05:57Z",
+        "currentVersionReleaseDate":  "2026-05-28T01:41:40Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_006",
+        "sourceProductId":  "1114387800",
+        "title":  "Fitness App: Gym Workout Plan",
+        "brand":  "FITNESS ONLINE MChJ",
+        "description":  "Whether you are trying to lose weight, gain muscle mass, rounder buttocks or want to get 6-pack abs – our fitness app offers full body workout plans with many 3D workout exercises for free. Here you will find ready workouts with champions’ diets. You can choose from a variety of exercise plans for muscle groups, such as chest workout or arm workout, or for a certain goal, such as fat burning workout. You can also cho...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/43/f3/1343f3fe-10b4-882b-7a92-02a7b868c968/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/fitness-app-gym-workout-plan/id1114387800?uo=4",
+        "channel":  "local",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Sports",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  33178,
+        "releaseDate":  "2016-09-15T07:04:03Z",
+        "currentVersionReleaseDate":  "2026-04-25T02:33:39Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/fitness-app-gym-workout-plan/id1114387800?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_007",
+        "sourceProductId":  "399857015",
+        "title":  "Planet Fitness",
+        "brand":  "Planet Fitness Holdings, LLC",
+        "description":  "Welcome to the Planet Fitness App: The Gym in Your Pocket! Did you know the PF App has tons of free features everyone? It’s not just Planet Fitness members that can enjoy what the PF App has to offer! We believe fitness should be accessible for all, which is why non-members have access to a huge library of on-demand digital workouts, helpful exercise tutorials for extra guidance, and activity tracking to celebrate wi...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/91/5f/c3915f48-0be3-05ad-7beb-943851b5b007/appicon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/planet-fitness/id399857015?uo=4",
+        "channel":  "featured",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Lifestyle",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  709929,
+        "releaseDate":  "2010-11-04T01:40:59Z",
+        "currentVersionReleaseDate":  "2026-05-28T14:07:08Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/planet-fitness/id399857015?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_008",
+        "sourceProductId":  "516851502",
+        "title":  "Fitness App (ABC Trainerize)",
+        "brand":  "TSR Gym Technik Ltd.",
+        "description":  "The #1 coaching app to better engage your clients. Take your coaching online and deliver an experience like nothing your clients have ever seen before. With fitness, nutrition, and habit-coaching features, plus in-app messaging, groups, progress tracking, and more — it\u0027s everything you need to motivate and inspire. By combining both a trainer and a client-side experience, ABC Trainerize allows fitness professionals t...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/d1/bc/2ed1bc00-a40f-78e5-f5ec-078c13d979d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/fitness-app-abc-trainerize/id516851502?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  64181,
+        "releaseDate":  "2012-04-12T21:48:53Z",
+        "currentVersionReleaseDate":  "2026-04-30T18:56:00Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/fitness-app-abc-trainerize/id516851502?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_009",
+        "sourceProductId":  "337472899",
+        "title":  "Insight Timer: Meditate, Sleep",
+        "brand":  "Insight Network Inc",
+        "description":  "* Apps of the Year Winner - TIME magazine and Womens Health * * More time is spent meditating on Insight Timer than all other meditation apps * * Happiest App in the World - Tristan Harris * The number 1 free meditation app. Guided meditations and talks led by the world\u0027s top meditation and mindfulness experts, neuroscientists, psychologists and teachers from Stanford, Harvard, the University of Oxford and more. Musi...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/66/d4/7a66d4ce-1605-4858-7bca-5ccb39d15bf2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/insight-timer-meditate-sleep/id337472899?uo=4",
+        "channel":  "local",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Lifestyle",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  440190,
+        "releaseDate":  "2009-11-05T18:55:12Z",
+        "currentVersionReleaseDate":  "2026-05-28T12:09:25Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/insight-timer-meditate-sleep/id337472899?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_010",
+        "sourceProductId":  "493145008",
+        "title":  "Headspace: Sleep \u0026 Meditation",
+        "brand":  "Headspace Inc.",
+        "description":  "Welcome to Headspace, your expert-led guide to mental health, mindfulness, and meditation. Whether you\u0027re navigating stress, anxiety, sleep trouble, or life’s ups and downs, Headspace is here to support you. Explore science-backed exercises, courses, and programs that help you build everyday skills to care for your mind. For more support, you have access to licensed therapists, mental health coaches or Ebb, your empa...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/ee/66/ceee6674-554c-1b15-3174-1659c8ffe767/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/headspace-sleep-meditation/id493145008?uo=4",
+        "channel":  "featured",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Productivity",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  974030,
+        "releaseDate":  "2012-02-02T18:57:49Z",
+        "currentVersionReleaseDate":  "2026-05-26T18:17:16Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/headspace-sleep-meditation/id493145008?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_011",
+        "sourceProductId":  "571800810",
+        "title":  "Calm",
+        "brand":  "Calm.com, Inc.",
+        "description":  "** Best of 2018 Award Winner ** — Apple ** 2017 App of the Year ** — Apple ** Happiest App in the World ** — Center for Humane Technology Calm is the #1 app for Sleep, Meditation and Relaxation. Sleep better, relieve stress, lower anxiety and refocus your attention. Explore an extensive library of guided meditations, Sleep Stories, breathwork, exclusive music and stretching exercises. Invest in your mental health and...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/88/8c/11888cdd-0381-2cd8-0646-9a10d0d22172/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/calm/id571800810?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Lifestyle",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  1956486,
+        "releaseDate":  "2013-02-22T20:09:23Z",
+        "currentVersionReleaseDate":  "2026-05-28T05:52:23Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/calm/id571800810?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_012",
+        "sourceProductId":  "1361356590",
+        "title":  "Balance: Meditation \u0026 Sleep",
+        "brand":  "Elevate Labs, LLC",
+        "description":  "Improve your stress, sleep, and more with Balance’s personalized guided meditation program. YOUR PERSONAL MEDITATION COACH Balance is your personal meditation coach. Each day, you’ll answer questions about your meditation experience, goals, and preferences. Using an audio library of thousands of files, Balance assembles a daily guided meditation that’s perfect for you. The more you share over time, the more personali...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/f8/b2/dff8b203-65c7-fab4-2441-d9ccc3cb93f1/AppIconUpdated-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/balance-meditation-sleep/id1361356590?uo=4",
+        "channel":  "local",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Lifestyle",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  119469,
+        "releaseDate":  "2019-09-03T07:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-18T20:40:37Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/balance-meditation-sleep/id1361356590?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_013",
+        "sourceProductId":  "1500780518",
+        "title":  "Medito: Mindfulness Meditation",
+        "brand":  "Medito Stichting",
+        "description":  "Free Meditation \u0026 Sleep — and always free. Join 2 million+ people finding daily calm with Medito, the pocket‑size studio for guided meditation, mindfulness courses, breathing exercises and sleep stories. Why Medito • 100 % free \u0026 non‑profit — built by Medito Foundation to keep mindfulness open to everyone • Courses for every goal — daily calm, focus boosts, anxiety SOS, mindful walking, loving‑kindness • Sleep storie...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/3b/25/093b2527-a3b0-1489-d021-86c5fce7239b/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/medito-mindfulness-meditation/id1500780518?uo=4",
+        "channel":  "featured",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Education",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  4034,
+        "releaseDate":  "2020-04-18T07:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-19T06:59:22Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/medito-mindfulness-meditation/id1500780518?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_014",
+        "sourceProductId":  "1482725254",
+        "title":  "Open: Breathwork + Meditation",
+        "brand":  "Open Inc.",
+        "description":  "“We believe that mindfulness is more than a form of stress relief — it can be a tool for personal growth, deeper understanding, vibrancy. More than a way to disconnect — it can be a way to feel a part of something bigger. More than simply silence — it can be immersive, beautiful, moving.” –Raed Khawaja, Open Co-founder \u0026 CEO Regulate your nervous system with Open. Bridge science and spirituality to cleanse your body...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/84/53/6d845365-52aa-93b0-8361-882eb049ea1b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/open-breathwork-meditation/id1482725254?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Lifestyle",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  16437,
+        "releaseDate":  "2021-01-29T08:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-28T10:37:26Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/open-breathwork-meditation/id1482725254?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_015",
+        "sourceProductId":  "1307736395",
+        "title":  "Waking Up: Meditation \u0026 Wisdom",
+        "brand":  "Waking Up Course, LLC",
+        "description":  "Recognized as a 2025 Pick by NYT Wirecutter Featured as a 2026 pick for the App Store “App of the Day” Thousands worldwide call Waking Up life changing. Whether you want better sleep, more clarity, or deeper meditation, Waking Up is your complete guide. Testimonials “Waking Up has led to my most consistent meditation practice. Family and staff also use it because it’s such a powerful tool.” —Andrew Huberman, neurosci...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/fc/60/74fc6091-7fe9-88c6-9bf3-e9731d09984b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/waking-up-meditation-wisdom/id1307736395?uo=4",
+        "channel":  "local",
+        "category":  "Health \u0026 Fitness",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Health \u0026 Fitness",
+                        "Education",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  42379,
+        "releaseDate":  "2018-09-21T15:46:51Z",
+        "currentVersionReleaseDate":  "2026-05-12T13:09:07Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/waking-up-meditation-wisdom/id1307736395?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_016",
+        "sourceProductId":  "545599256",
+        "title":  "Instacart: Groceries \u0026 Food",
+        "brand":  "Maplebear Inc",
+        "description":  "Shop online \u0026 get your groceries delivered directly to your door in as fast as 30 minutes. And it\u0027s safe—contactless delivery is available. Instacart delivers fresh food, drinks, and household items the same day all across the US. Download the app to see what stores are available in your zip code. Prefer to pickup? Order online and pickup at your local store, where it will be waiting for you when you arrive. Ordering...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/00/54/c80054b9-007b-ba77-f1df-6d8c23c2af1f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-P3-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/instacart-groceries-food/id545599256?uo=4",
+        "channel":  "local",
+        "category":  "Food \u0026 Drink",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Food \u0026 Drink",
+                        "Shopping",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  4596957,
+        "releaseDate":  "2012-08-17T07:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-30T16:33:11Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/instacart-groceries-food/id545599256?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_017",
+        "sourceProductId":  "971888874",
+        "title":  "Shipt: Order Grocery Delivery",
+        "brand":  "Shipt LLC",
+        "description":  "Get same-day delivery with Shipt – the fast, easy, all-in-one delivery app. Order groceries, alcohol (21+, terms apply)**, home essentials, and more from your favorite nearby stores and get everything delivered straight to your door. Plus, members get exclusive offers and deals on their favorite products. ORDER GROCERIES \u0026 ESSENTIALS WITH EASE - Communicate directly with your personal shopper for substitutions, prefe...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/e5/e2/fee5e262-a4b3-3d27-348e-f52ea5c7c32c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/shipt-order-grocery-delivery/id971888874?uo=4",
+        "channel":  "local",
+        "category":  "Food \u0026 Drink",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Food \u0026 Drink",
+                        "Shopping",
+                        "Rating 4.9",
+                        "Free"
+                    ],
+        "rating":  "4.9",
+        "ratingCount":  133248,
+        "releaseDate":  "2015-05-07T02:52:25Z",
+        "currentVersionReleaseDate":  "2026-05-11T16:27:09Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/shipt-order-grocery-delivery/id971888874?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_018",
+        "sourceProductId":  "722804810",
+        "title":  "Gopuff - Grocery Delivery",
+        "brand":  "GoPuff LLC",
+        "description":  "Thousands of items – delivered faster than you’d ever expect. Gopuff is your personal teleportation device, bringing you everything you need in as fast as 15 minutes. From groceries and alcohol to home care products and more, Gopuff has you covered. We cut out the middleman, so what you see on Gopuff is what you get. That means no substitutions, no markups, and no service fees. From early ‘til late, we’ll take care o...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/72/6e/7d726e89-83db-c6b9-1479-9d82051a927d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/gopuff-grocery-delivery/id722804810?uo=4",
+        "channel":  "local",
+        "category":  "Food \u0026 Drink",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Food \u0026 Drink",
+                        "Lifestyle",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  247823,
+        "releaseDate":  "2013-10-17T08:12:48Z",
+        "currentVersionReleaseDate":  "2026-05-25T14:56:53Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/gopuff-grocery-delivery/id722804810?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_019",
+        "sourceProductId":  "1058959277",
+        "title":  "Uber Eats: Food \u0026 Groceries",
+        "brand":  "Uber Technologies, Inc.",
+        "description":  "Get food delivery to your doorstep from thousands of amazing local and national restaurants. Find the meal you crave and order food from restaurants easily with the Uber Eats app. Track your order in real-time. FIND YOUR FAVORITE FOOD \u0026 RESTAURANTS Order food from nearby restaurants and search by cuisine, restaurant name, dish, and meal. Food delivery options for you to order and enjoy including pizza, burritos, burg...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/6d/e7/8b6de705-f8ac-6b07-bfc7-c77b5105d408/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/uber-eats-food-groceries/id1058959277?uo=4",
+        "channel":  "local",
+        "category":  "Food \u0026 Drink",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Food \u0026 Drink",
+                        "Lifestyle",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  10407925,
+        "releaseDate":  "2016-03-01T07:53:50Z",
+        "currentVersionReleaseDate":  "2026-05-26T14:24:36Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/uber-eats-food-groceries/id1058959277?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_020",
+        "sourceProductId":  "429396645",
+        "title":  "ALDI Grocery Pickup \u0026 Delivery",
+        "brand":  "ALDI International Services GmbH \u0026 Co. oHG",
+        "description":  "Want a quick, easy, and affordable grocery shopping experience? Order ALDI from anywhere with the new and improved ALDI app. Find your local store, select pickup or delivery, fill your cart and just like that, groceries are just a click away. Download the app, sign in or create your account and get started today. Features of the ALDI App: • Order Grocery Pickup \u0026 Grocery Delivery – Choose how you shop with either cur...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/41/6c/06416c01-a021-b2f0-3e56-7f9ae7b2a529/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/aldi-grocery-pickup-delivery/id429396645?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Shopping",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Shopping",
+                        "Lifestyle",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  110829,
+        "releaseDate":  "2011-07-01T07:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-04T21:38:20Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/aldi-grocery-pickup-delivery/id429396645?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_021",
+        "sourceProductId":  "1483998235",
+        "title":  "Spark Driver",
+        "brand":  "Walmart",
+        "description":  "With the Spark Driver™ app, you can deliver orders, or shop and deliver orders, for Walmart and other businesses. All you need is a car, a smartphone, and insurance. After you’ve completed the enrollment process (including a background check), you will be notified when your local zone has availability. You’ll then receive details for accessing the Spark Driver app. BE YOUR OWN BOSS As an independent contractor, you’l...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c9/dc/b6c9dc9f-93ac-c731-ad69-0036005d3ed5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/spark-driver/id1483998235?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Business",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Business",
+                        "Rating 4.7",
+                        "Free"
+                    ],
+        "rating":  "4.7",
+        "ratingCount":  261346,
+        "releaseDate":  "2019-11-11T08:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-27T06:06:42Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/spark-driver/id1483998235?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_022",
+        "sourceProductId":  "1454056744",
+        "title":  "Instacart Shopper: Earn money",
+        "brand":  "Maplebear Inc",
+        "description":  "What it’s like being an Instacart shopper: — Work whenever \u0026 wherever you want — With no set schedule or region, you can make extra cash when it fits your life—whether that’s close to home or miles away. — Pick the orders you want — Use the app to see nearby orders and choose the ones that work best for you. Then get paid just for grocery shopping! — Get paid fast — Keep 100% of customer tips and cash out in as littl...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/05/be/c705be78-5ee0-a42d-2208-a89f7d58ef0f/AppIcon.com.instacart.shopper-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/instacart-shopper-earn-money/id1454056744?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Business",
+        "priceText":  "Free",
+        "materialType":  "large_image",
+        "rawTags":  [
+                        "Business",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  1570629,
+        "releaseDate":  "2019-05-01T16:55:34Z",
+        "currentVersionReleaseDate":  "2026-05-27T20:21:24Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/instacart-shopper-earn-money/id1454056744?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_023",
+        "sourceProductId":  "976353472",
+        "title":  "Shipt: Shopper and Driver",
+        "brand":  "Shipt LLC",
+        "description":  "Interested in flexible gig work? With Shipt, you can earn money as a delivery driver or personal shopper. Get paid to deliver packages or shop for groceries and household essentials from local stores. Set your own schedule, work when you want, and enjoy same-day pay opportunities. Earn money \u0026 get paid fast Personal shoppers earn base pay (offer pay) for any grocery or package delivery based on estimated time and eff...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/3a/c9/383ac9db-f53e-55d3-1298-c7bdc145c329/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/shipt-shopper-and-driver/id976353472?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Business",
+        "priceText":  "Free",
+        "materialType":  "small_image",
+        "rawTags":  [
+                        "Business",
+                        "Productivity",
+                        "Rating 4.7",
+                        "Free"
+                    ],
+        "rating":  "4.7",
+        "ratingCount":  224365,
+        "releaseDate":  "2018-02-05T17:25:44Z",
+        "currentVersionReleaseDate":  "2026-05-27T14:12:01Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/shipt-shopper-and-driver/id976353472?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    },
+    {
+        "id":  "ad_024",
+        "sourceProductId":  "1576385234",
+        "title":  "Haul Shopping",
+        "brand":  "Haul Labs Inc.",
+        "description":  "Discover the best deals, price drops, and hidden coupons from top retailers — all inside Haul, the fast, fun, and easy-to-use shop app. Haul’s AI searches the internet all day to uncover price drops, hidden coupons, and hard-to-find savings on the products you already buy. From snacks and groceries to seasonal items, gifts, home essentials, and trending finds — there’s always something fun to discover every time you...",
+        "imageUrl":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/25/b7/7e25b7c7-7ec6-59ea-1648-a9bd5a633742/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+        "landingUrl":  "https://apps.apple.com/us/app/haul-shopping/id1576385234?uo=4",
+        "channel":  "ecommerce",
+        "category":  "Shopping",
+        "priceText":  "Free",
+        "materialType":  "video",
+        "rawTags":  [
+                        "Shopping",
+                        "Social Networking",
+                        "Rating 4.8",
+                        "Free"
+                    ],
+        "rating":  "4.8",
+        "ratingCount":  28780,
+        "releaseDate":  "2021-07-26T07:00:00Z",
+        "currentVersionReleaseDate":  "2026-05-07T12:31:50Z",
+        "source":  {
+                       "provider":  "Apple iTunes Search API",
+                       "providerUrl":  "https://performance-partners.apple.com/search-api",
+                       "sourceUrl":  "https://apps.apple.com/us/app/haul-shopping/id1576385234?uo=4",
+                       "retrievedAt":  "2026-05-31"
+                   }
+    }
+]
