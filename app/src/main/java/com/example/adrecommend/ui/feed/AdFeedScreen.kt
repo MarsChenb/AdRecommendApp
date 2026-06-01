@@ -2,6 +2,7 @@ package com.example.adrecommend.ui.feed
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -39,6 +40,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.adrecommend.data.PreviewAdRepository
 import com.example.adrecommend.model.AdChannel
+import com.example.adrecommend.model.AdInteractionState
 import com.example.adrecommend.model.AdItem
 import com.example.adrecommend.model.AdType
 import com.example.adrecommend.state.FeedUiState
@@ -48,6 +50,10 @@ import com.example.adrecommend.ui.theme.AdRecommendAppTheme
 fun AdFeedScreen(
     state: FeedUiState,
     onChannelSelected: (AdChannel) -> Unit,
+    onAdSelected: (AdItem) -> Unit,
+    onLike: (AdItem) -> Unit,
+    onFavorite: (AdItem) -> Unit,
+    onShare: (AdItem) -> Unit,
     modifier: Modifier = Modifier
 ) {
     Scaffold(
@@ -88,6 +94,11 @@ fun AdFeedScreen(
             ) { ad ->
                 AdCard(
                     ad = ad,
+                    interaction = state.interactions[ad.id] ?: AdInteractionState(),
+                    onClick = { onAdSelected(ad) },
+                    onLike = { onLike(ad) },
+                    onFavorite = { onFavorite(ad) },
+                    onShare = { onShare(ad) },
                     modifier = Modifier.padding(horizontal = 16.dp)
                 )
             }
@@ -219,22 +230,34 @@ private fun ErrorBanner(message: String) {
 @Composable
 private fun AdCard(
     ad: AdItem,
+    interaction: AdInteractionState,
+    onClick: () -> Unit,
+    onLike: () -> Unit,
+    onFavorite: () -> Unit,
+    onShare: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     when (ad.materialType) {
-        AdType.LargeImage -> LargeImageAdCard(ad = ad, modifier = modifier)
-        AdType.SmallImage -> SmallImageAdCard(ad = ad, modifier = modifier)
-        AdType.Video -> VideoAdCard(ad = ad, modifier = modifier)
+        AdType.LargeImage -> LargeImageAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, modifier)
+        AdType.SmallImage -> SmallImageAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, modifier)
+        AdType.Video -> VideoAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, modifier)
     }
 }
 
 @Composable
 private fun LargeImageAdCard(
     ad: AdItem,
+    interaction: AdInteractionState,
+    onClick: () -> Unit,
+    onLike: () -> Unit,
+    onFavorite: () -> Unit,
+    onShare: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     CardFrame(modifier = modifier) {
-        Box {
+        Box(
+            modifier = Modifier.clickable(onClick = onClick)
+        ) {
             RemoteImage(
                 imageUrl = ad.imageUrl,
                 contentDescription = ad.title,
@@ -257,19 +280,23 @@ private fun LargeImageAdCard(
             )
         }
         Column(modifier = Modifier.padding(16.dp)) {
-            BrandLine(ad = ad)
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = ad.title,
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-                maxLines = 2,
-                overflow = TextOverflow.Ellipsis
-            )
-            Spacer(modifier = Modifier.height(8.dp))
-            SummaryText(text = ad.aiSummary, maxLines = 3)
+            Column(modifier = Modifier.clickable(onClick = onClick)) {
+                BrandLine(ad = ad)
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = ad.title,
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                SummaryText(text = ad.aiSummary, maxLines = 3)
+                Spacer(modifier = Modifier.height(14.dp))
+                TagRow(tags = ad.aiTags.take(3))
+            }
             Spacer(modifier = Modifier.height(14.dp))
-            TagRow(tags = ad.aiTags.take(3))
+            InteractionRow(interaction, onLike, onFavorite, onShare)
         }
     }
 }
@@ -277,6 +304,11 @@ private fun LargeImageAdCard(
 @Composable
 private fun SmallImageAdCard(
     ad: AdItem,
+    interaction: AdInteractionState,
+    onClick: () -> Unit,
+    onLike: () -> Unit,
+    onFavorite: () -> Unit,
+    onShare: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     CardFrame(modifier = modifier) {
@@ -289,6 +321,7 @@ private fun SmallImageAdCard(
                 contentDescription = ad.title,
                 modifier = Modifier
                     .size(112.dp)
+                    .clickable(onClick = onClick)
                     .clip(RoundedCornerShape(8.dp))
                     .border(
                         width = 1.dp,
@@ -300,19 +333,23 @@ private fun SmallImageAdCard(
             )
             Spacer(modifier = Modifier.width(14.dp))
             Column(modifier = Modifier.weight(1f)) {
-                BrandLine(ad = ad)
-                Spacer(modifier = Modifier.height(6.dp))
-                Text(
-                    text = ad.title,
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold,
-                    maxLines = 2,
-                    overflow = TextOverflow.Ellipsis
-                )
-                Spacer(modifier = Modifier.height(6.dp))
-                SummaryText(text = ad.aiSummary, maxLines = 3)
+                Column(modifier = Modifier.clickable(onClick = onClick)) {
+                    BrandLine(ad = ad)
+                    Spacer(modifier = Modifier.height(6.dp))
+                    Text(
+                        text = ad.title,
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                    Spacer(modifier = Modifier.height(6.dp))
+                    SummaryText(text = ad.aiSummary, maxLines = 3)
+                    Spacer(modifier = Modifier.height(10.dp))
+                    TagRow(tags = ad.aiTags.take(2))
+                }
                 Spacer(modifier = Modifier.height(10.dp))
-                TagRow(tags = ad.aiTags.take(2))
+                InteractionRow(interaction, onLike, onFavorite, onShare)
             }
         }
     }
@@ -321,10 +358,17 @@ private fun SmallImageAdCard(
 @Composable
 private fun VideoAdCard(
     ad: AdItem,
+    interaction: AdInteractionState,
+    onClick: () -> Unit,
+    onLike: () -> Unit,
+    onFavorite: () -> Unit,
+    onShare: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     CardFrame(modifier = modifier) {
-        Box {
+        Box(
+            modifier = Modifier.clickable(onClick = onClick)
+        ) {
             RemoteImage(
                 imageUrl = ad.imageUrl,
                 contentDescription = ad.title,
@@ -365,19 +409,23 @@ private fun VideoAdCard(
             }
         }
         Column(modifier = Modifier.padding(16.dp)) {
-            BrandLine(ad = ad)
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = ad.title,
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-                maxLines = 2,
-                overflow = TextOverflow.Ellipsis
-            )
-            Spacer(modifier = Modifier.height(8.dp))
-            SummaryText(text = ad.aiSummary, maxLines = 3)
+            Column(modifier = Modifier.clickable(onClick = onClick)) {
+                BrandLine(ad = ad)
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = ad.title,
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                SummaryText(text = ad.aiSummary, maxLines = 3)
+                Spacer(modifier = Modifier.height(14.dp))
+                TagRow(tags = ad.aiTags.take(3))
+            }
             Spacer(modifier = Modifier.height(14.dp))
-            TagRow(tags = ad.aiTags.take(3))
+            InteractionRow(interaction, onLike, onFavorite, onShare)
         }
     }
 }
@@ -419,6 +467,61 @@ private fun BrandLine(ad: AdItem) {
             style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.tertiary,
             fontWeight = FontWeight.Bold,
+            maxLines = 1
+        )
+    }
+}
+
+@Composable
+private fun InteractionRow(
+    interaction: AdInteractionState,
+    onLike: () -> Unit,
+    onFavorite: () -> Unit,
+    onShare: () -> Unit
+) {
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        CompactAction(
+            text = if (interaction.liked) "Liked" else "Like",
+            active = interaction.liked,
+            onClick = onLike
+        )
+        CompactAction(
+            text = if (interaction.favorited) "Saved" else "Save",
+            active = interaction.favorited,
+            onClick = onFavorite
+        )
+        CompactAction(
+            text = "Share ${interaction.sharedCount}",
+            active = false,
+            onClick = onShare
+        )
+    }
+}
+
+@Composable
+private fun CompactAction(
+    text: String,
+    active: Boolean,
+    onClick: () -> Unit
+) {
+    Surface(
+        modifier = Modifier.clickable(onClick = onClick),
+        shape = RoundedCornerShape(8.dp),
+        color = if (active) {
+            MaterialTheme.colorScheme.primary.copy(alpha = 0.14f)
+        } else {
+            MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.54f)
+        }
+    ) {
+        Text(
+            text = text,
+            modifier = Modifier.padding(horizontal = 10.dp, vertical = 7.dp),
+            style = MaterialTheme.typography.labelMedium,
+            color = if (active) {
+                MaterialTheme.colorScheme.primary
+            } else {
+                MaterialTheme.colorScheme.onSurfaceVariant
+            },
             maxLines = 1
         )
     }
@@ -519,7 +622,11 @@ private fun AdFeedScreenPreview() {
                 selectedChannel = AdChannel.Featured,
                 ads = repository.getAds(AdChannel.Featured)
             ),
-            onChannelSelected = {}
+            onChannelSelected = {},
+            onAdSelected = {},
+            onLike = {},
+            onFavorite = {},
+            onShare = {}
         )
     }
 }
