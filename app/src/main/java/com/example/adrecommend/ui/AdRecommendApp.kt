@@ -1,5 +1,6 @@
 package com.example.adrecommend.ui
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateMapOf
@@ -12,6 +13,7 @@ import com.example.adrecommend.data.AdRepository
 import com.example.adrecommend.data.LocalAdRepository
 import com.example.adrecommend.model.AdChannel
 import com.example.adrecommend.model.AdInteractionState
+import com.example.adrecommend.model.AdItem
 import com.example.adrecommend.state.FeedUiState
 import com.example.adrecommend.ui.detail.AdDetailScreen
 import com.example.adrecommend.ui.feed.AdFeedScreen
@@ -27,10 +29,15 @@ fun AdRecommendApp(
     val channels = remember(resolvedRepository) { resolvedRepository.getChannels() }
     var selectedChannelId by rememberSaveable { mutableStateOf(AdChannel.Featured.id) }
     var selectedAdId by rememberSaveable { mutableStateOf<String?>(null) }
+    var selectedTag by rememberSaveable { mutableStateOf<String?>(null) }
+    var searchQuery by rememberSaveable { mutableStateOf("") }
     val interactions = remember { mutableStateMapOf<String, AdInteractionState>() }
     val selectedChannel = channels.firstOrNull { it.id == selectedChannelId } ?: AdChannel.Featured
     val ads = remember(resolvedRepository, selectedChannel) {
         resolvedRepository.getAds(selectedChannel)
+    }
+    val filteredAds = remember(ads, selectedTag, searchQuery) {
+        ads.filterByTagAndSearch(selectedTag, searchQuery)
     }
     val selectedAd = selectedAdId?.let { adId ->
         channels.asSequence()
@@ -50,6 +57,9 @@ fun AdRecommendApp(
     }
 
     if (selectedAd != null) {
+        BackHandler {
+            selectedAdId = null
+        }
         AdDetailScreen(
             ad = selectedAd,
             interaction = interactionOf(selectedAd.id),
@@ -75,12 +85,24 @@ fun AdRecommendApp(
             state = FeedUiState(
                 channels = channels,
                 selectedChannel = selectedChannel,
-                ads = ads,
+                ads = filteredAds,
                 interactions = interactions.toMap(),
+                selectedTag = selectedTag,
+                searchQuery = searchQuery,
                 errorMessage = resolvedRepository.getLoadErrorMessage()
             ),
             onChannelSelected = { channel ->
                 selectedChannelId = channel.id
+            },
+            onSearchQueryChanged = { query ->
+                searchQuery = query
+            },
+            onTagSelected = { tag ->
+                selectedTag = tag
+            },
+            onClearFilters = {
+                selectedTag = null
+                searchQuery = ""
             },
             onAdSelected = { ad ->
                 updateInteraction(ad.id) { state ->
@@ -104,5 +126,32 @@ fun AdRecommendApp(
                 }
             }
         )
+    }
+}
+
+private fun List<AdItem>.filterByTagAndSearch(
+    selectedTag: String?,
+    searchQuery: String
+): List<AdItem> {
+    val normalizedQuery = searchQuery.trim()
+    return filter { ad ->
+        val matchesTag = selectedTag == null || ad.aiTags.any { tag -> tag == selectedTag }
+        val matchesSearch = normalizedQuery.isBlank() || ad.matchesSearch(normalizedQuery)
+        matchesTag && matchesSearch
+    }
+}
+
+private fun AdItem.matchesSearch(query: String): Boolean {
+    return listOf(
+        title,
+        brand,
+        description,
+        category,
+        aiSummary,
+        aiTags.joinToString(" "),
+        audience.joinToString(" "),
+        sellingPoints.joinToString(" ")
+    ).any { field ->
+        field.contains(query, ignoreCase = true)
     }
 }

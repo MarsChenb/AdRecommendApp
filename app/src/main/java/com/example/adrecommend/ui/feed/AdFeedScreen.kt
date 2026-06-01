@@ -24,9 +24,12 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -50,6 +53,9 @@ import com.example.adrecommend.ui.theme.AdRecommendAppTheme
 fun AdFeedScreen(
     state: FeedUiState,
     onChannelSelected: (AdChannel) -> Unit,
+    onSearchQueryChanged: (String) -> Unit,
+    onTagSelected: (String) -> Unit,
+    onClearFilters: () -> Unit,
     onAdSelected: (AdItem) -> Unit,
     onLike: (AdItem) -> Unit,
     onFavorite: (AdItem) -> Unit,
@@ -70,7 +76,11 @@ fun AdFeedScreen(
             item {
                 FeedHeader(
                     selectedChannel = state.selectedChannel,
-                    visibleCount = state.ads.size
+                    visibleCount = state.ads.size,
+                    searchQuery = state.searchQuery,
+                    selectedTag = state.selectedTag,
+                    onSearchQueryChanged = onSearchQueryChanged,
+                    onClearFilters = onClearFilters
                 )
             }
 
@@ -88,6 +98,16 @@ fun AdFeedScreen(
                 }
             }
 
+            if (state.ads.isEmpty()) {
+                item {
+                    EmptyResult(
+                        selectedTag = state.selectedTag,
+                        searchQuery = state.searchQuery,
+                        onClearFilters = onClearFilters
+                    )
+                }
+            }
+
             items(
                 items = state.ads,
                 key = { ad -> ad.id }
@@ -99,6 +119,7 @@ fun AdFeedScreen(
                     onLike = { onLike(ad) },
                     onFavorite = { onFavorite(ad) },
                     onShare = { onShare(ad) },
+                    onTagSelected = onTagSelected,
                     modifier = Modifier.padding(horizontal = 16.dp)
                 )
             }
@@ -109,7 +130,11 @@ fun AdFeedScreen(
 @Composable
 private fun FeedHeader(
     selectedChannel: AdChannel,
-    visibleCount: Int
+    visibleCount: Int,
+    searchQuery: String,
+    selectedTag: String?,
+    onSearchQueryChanged: (String) -> Unit,
+    onClearFilters: () -> Unit
 ) {
     Column(
         modifier = Modifier
@@ -141,29 +166,97 @@ private fun FeedHeader(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Surface(
+        OutlinedTextField(
+            value = searchQuery,
+            onValueChange = onSearchQueryChanged,
             modifier = Modifier.fillMaxWidth(),
+            singleLine = true,
             shape = RoundedCornerShape(8.dp),
-            color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.58f)
-        ) {
-            Row(
-                modifier = Modifier.padding(horizontal = 14.dp, vertical = 12.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Text(
-                    text = "Search",
-                    style = MaterialTheme.typography.labelLarge,
-                    color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.SemiBold
-                )
-                Spacer(modifier = Modifier.width(10.dp))
+            label = {
+                Text(text = "Search")
+            },
+            placeholder = {
                 Text(
                     text = "Try: 通勤、健身、外卖、兼职",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
+            },
+            colors = TextFieldDefaults.colors(
+                focusedContainerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.46f),
+                unfocusedContainerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.46f),
+                disabledContainerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.46f)
+            )
+        )
+
+        if (selectedTag != null || searchQuery.isNotBlank()) {
+            Spacer(modifier = Modifier.height(10.dp))
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = activeFilterText(selectedTag, searchQuery),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.weight(1f),
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis
+                )
+                TextButton(onClick = onClearFilters) {
+                    Text(text = "Clear")
+                }
+            }
+        }
+    }
+}
+
+private fun activeFilterText(
+    selectedTag: String?,
+    searchQuery: String
+): String {
+    return buildList {
+        if (searchQuery.isNotBlank()) {
+            add("Search: ${searchQuery.trim()}")
+        }
+        if (selectedTag != null) {
+            add("Tag: $selectedTag")
+        }
+    }.joinToString(" · ")
+}
+
+@Composable
+private fun EmptyResult(
+    selectedTag: String?,
+    searchQuery: String,
+    onClearFilters: () -> Unit
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp),
+        shape = RoundedCornerShape(8.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
+    ) {
+        Column(modifier = Modifier.padding(18.dp)) {
+            Text(
+                text = "No matching ads",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Spacer(modifier = Modifier.height(6.dp))
+            Text(
+                text = activeFilterText(selectedTag, searchQuery).ifBlank {
+                    "Try another channel or keyword."
+                },
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Spacer(modifier = Modifier.height(10.dp))
+            TextButton(onClick = onClearFilters) {
+                Text(text = "Clear filters")
             }
         }
     }
@@ -235,12 +328,13 @@ private fun AdCard(
     onLike: () -> Unit,
     onFavorite: () -> Unit,
     onShare: () -> Unit,
+    onTagSelected: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     when (ad.materialType) {
-        AdType.LargeImage -> LargeImageAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, modifier)
-        AdType.SmallImage -> SmallImageAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, modifier)
-        AdType.Video -> VideoAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, modifier)
+        AdType.LargeImage -> LargeImageAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, onTagSelected, modifier)
+        AdType.SmallImage -> SmallImageAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, onTagSelected, modifier)
+        AdType.Video -> VideoAdCard(ad, interaction, onClick, onLike, onFavorite, onShare, onTagSelected, modifier)
     }
 }
 
@@ -252,6 +346,7 @@ private fun LargeImageAdCard(
     onLike: () -> Unit,
     onFavorite: () -> Unit,
     onShare: () -> Unit,
+    onTagSelected: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     CardFrame(modifier = modifier) {
@@ -280,7 +375,7 @@ private fun LargeImageAdCard(
             )
         }
         Column(modifier = Modifier.padding(16.dp)) {
-            Column(modifier = Modifier.clickable(onClick = onClick)) {
+            Column {
                 BrandLine(ad = ad)
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
@@ -292,9 +387,9 @@ private fun LargeImageAdCard(
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 SummaryText(text = ad.aiSummary, maxLines = 3)
-                Spacer(modifier = Modifier.height(14.dp))
-                TagRow(tags = ad.aiTags.take(3))
             }
+            Spacer(modifier = Modifier.height(14.dp))
+            TagRow(tags = ad.aiTags.take(3), onTagSelected = onTagSelected)
             Spacer(modifier = Modifier.height(14.dp))
             InteractionRow(interaction, onLike, onFavorite, onShare)
         }
@@ -309,6 +404,7 @@ private fun SmallImageAdCard(
     onLike: () -> Unit,
     onFavorite: () -> Unit,
     onShare: () -> Unit,
+    onTagSelected: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     CardFrame(modifier = modifier) {
@@ -333,7 +429,7 @@ private fun SmallImageAdCard(
             )
             Spacer(modifier = Modifier.width(14.dp))
             Column(modifier = Modifier.weight(1f)) {
-                Column(modifier = Modifier.clickable(onClick = onClick)) {
+                Column {
                     BrandLine(ad = ad)
                     Spacer(modifier = Modifier.height(6.dp))
                     Text(
@@ -345,9 +441,9 @@ private fun SmallImageAdCard(
                     )
                     Spacer(modifier = Modifier.height(6.dp))
                     SummaryText(text = ad.aiSummary, maxLines = 3)
-                    Spacer(modifier = Modifier.height(10.dp))
-                    TagRow(tags = ad.aiTags.take(2))
                 }
+                Spacer(modifier = Modifier.height(10.dp))
+                TagRow(tags = ad.aiTags.take(2), onTagSelected = onTagSelected)
                 Spacer(modifier = Modifier.height(10.dp))
                 InteractionRow(interaction, onLike, onFavorite, onShare)
             }
@@ -363,6 +459,7 @@ private fun VideoAdCard(
     onLike: () -> Unit,
     onFavorite: () -> Unit,
     onShare: () -> Unit,
+    onTagSelected: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     CardFrame(modifier = modifier) {
@@ -409,7 +506,7 @@ private fun VideoAdCard(
             }
         }
         Column(modifier = Modifier.padding(16.dp)) {
-            Column(modifier = Modifier.clickable(onClick = onClick)) {
+            Column {
                 BrandLine(ad = ad)
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
@@ -421,9 +518,9 @@ private fun VideoAdCard(
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 SummaryText(text = ad.aiSummary, maxLines = 3)
-                Spacer(modifier = Modifier.height(14.dp))
-                TagRow(tags = ad.aiTags.take(3))
             }
+            Spacer(modifier = Modifier.height(14.dp))
+            TagRow(tags = ad.aiTags.take(3), onTagSelected = onTagSelected)
             Spacer(modifier = Modifier.height(14.dp))
             InteractionRow(interaction, onLike, onFavorite, onShare)
         }
@@ -542,10 +639,14 @@ private fun SummaryText(
 }
 
 @Composable
-private fun TagRow(tags: List<String>) {
+private fun TagRow(
+    tags: List<String>,
+    onTagSelected: (String) -> Unit
+) {
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         tags.forEach { tag ->
             Surface(
+                modifier = Modifier.clickable { onTagSelected(tag) },
                 shape = RoundedCornerShape(8.dp),
                 color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.72f)
             ) {
@@ -623,6 +724,9 @@ private fun AdFeedScreenPreview() {
                 ads = repository.getAds(AdChannel.Featured)
             ),
             onChannelSelected = {},
+            onSearchQueryChanged = {},
+            onTagSelected = {},
+            onClearFilters = {},
             onAdSelected = {},
             onLike = {},
             onFavorite = {},
